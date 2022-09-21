@@ -1,0 +1,16 @@
+.button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    background-color: #ffffff;
+}
+
+.button--unrevealed {
+    background-color: #aaaaaa;
+}
+
+.button--bomb:after {
+    content: '*';
+    font-size: 35px;
+    line-height: 50px;
+}

@@ -1,0 +1,22 @@
+.placeholder {
+    height: 500px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    line-height: 0;
+}
+
+.game-over {
+    color: #aa1123;
+    position: relative;
+    top: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
